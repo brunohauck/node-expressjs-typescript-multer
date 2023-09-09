@@ -1,0 +1,30 @@
+{
+  "name": "aula_01_node_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Hauck",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/mime-types": "^2.1.1",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^16.4.13",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "express": "^4.18.2",
+    "mime-types": "^2.1.35",
+    "mongoose": "^7.4.5",
+    "multer": "^1.4.3",
+    "node-sessionstorage": "^1.0.0"
+  }
+}
